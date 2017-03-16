@@ -1,3 +1,10 @@
+install python 2.7
+install git
+install django
+install postgres
+install psycopg2
+
+
 django-admin startproject django_app
 python manage.py startapp project_v1
 
