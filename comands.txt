@@ -23,3 +23,6 @@ sudo adduser postgres_user
 CREATE USER postgres_user WITH PASSWORD 'password';
 CREATE DATABASE my_postgres_db OWNER postgres_user;	
 /*                 */
+
+ 
+python manage.py migrate
