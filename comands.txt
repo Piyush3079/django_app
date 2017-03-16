@@ -25,4 +25,8 @@ CREATE DATABASE my_postgres_db OWNER postgres_user;
 /*                 */
 
  
+python manage.py makemigrations /app/
+python manage.py sqlmigrate /app/ /migration number/
 python manage.py migrate
+
+python manage.py createsuperuser  --site admin user
