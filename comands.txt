@@ -1,0 +1,18 @@
+django-admin startproject django_app
+python manage.py startapp project_v1
+
+/*initailising git repo*/
+git init
+git add -A
+git commit -m "commit"
+git remote set origin /your repo url/
+git push --rebase origin /branch/
+git pull origin master
+/*       */
+
+
+/*creating postgres database myproject*/
+sudo adduser postgres_user
+CREATE USER postgres_user WITH PASSWORD 'password';
+CREATE DATABASE my_postgres_db OWNER postgres_user;	
+/*                 */
