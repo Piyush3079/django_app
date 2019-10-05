@@ -1,0 +1,4 @@
+django
+postgres
+psycopg2
+git
